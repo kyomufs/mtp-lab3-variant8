@@ -34,4 +34,12 @@ uv run python -m unittest discover -s tests -v
 uv run --with flake8 flake8 lab3 tests
 ```
 
+## Структура репозитория
+
+```text
+lab3/     # пакет с модулями по одному на задание и демо __main__.py
+tests/    # unittest-тесты, по файлу на задание
+docs/     # отчёт по работе
+```
+
 Подробное описание выполнения — в `docs/report.md`.
